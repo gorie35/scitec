@@ -1,0 +1,129 @@
+@media (max-width: 500px) {
+
+
+/* ------------------
+  全体構造
+------------------ */
+
+    /* 横スクロールバーを消すため（幅調整） */
+    .content {
+        width: auto;
+      }
+     header .inner {
+        width: auto;
+      }
+      main {
+        width: auto;
+      }
+      /* カードデザイン */
+main .card {
+  display: block;
+  text-align: center;
+}
+main .card img {
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+main .card .desc {
+  width: auto;
+}
+main .card h3 {
+  text-align: center;
+  
+}
+main .card p {
+  
+}
+      
+/* ------------------
+  ヘッダー
+------------------ */
+      
+      header nav.pc-nav {
+          display: none;
+      }
+
+      /* コンテント */
+      .content {
+          /* メインとアサイドの左右配置を取り除くため */
+        display: block;
+      }
+     
+  /* ------------------
+  メイン
+------------------ */    
+       main {
+    margin-bottom: 60px;
+}
+.others main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* ------------------
+  サイド
+------------------ */
+       aside {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px
+}
+    
+ /* ------------------
+  フッター
+------------------ */  
+       footer small br {
+    display: inline;
+      }
+
+       footer {
+          text-align: center;
+      }
+
+
+
+/* ------------------
+  トップページ
+------------------ */
+      #home main h2 {
+    /* #（ID）はポイントが高いので必ず入れる。コピペでOK */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+      #home main p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* ハンバーガーメニュー */
+.hamburger-button path {
+  fill: red;
+}
+.hamburger-button {
+  display: flex;
+}
+/* メニューボタン （四角いボタン）*/
+.hamburger-button {
+  background-color: transparent;/* 後ろの白い背景を取り除くため */
+  top: 60px;
+  right: 30px;
+}
+/* アイコン （三本線）*/
+.hamburger-button svg {
+  width: 50px;
+  height: 50px;
+}
+
+/* ナビゲーション (押した後に出てくるメニューのボタン*/
+/* 全体に表示させたい時 */
+.hamburger-nav {
+  height: 100%;
+}
+.hamburger-nav li {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+}
